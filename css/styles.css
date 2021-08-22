@@ -18,6 +18,12 @@ body {
   user-select: none;
 }
 
+#ret {
+  margin: 64px;
+  text-align: center;
+  cursor: pointer;
+}
+
 #btn:hover {
   opacity: 0.9;
 }
