@@ -2,9 +2,9 @@
 
 {
   const btn = document.getElementById('btn');
+  const n = Math.random();
 
   btn.addEventListener('click', () => {
-    const n = Math.random();
     if (n < 0.15) {
       btn.textContent = '大吉'; // 10%
     } else if (n < 0.4) {
